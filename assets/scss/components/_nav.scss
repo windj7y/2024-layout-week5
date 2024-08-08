@@ -1,0 +1,22 @@
+.nav {
+  width: 100%;
+}
+
+.nav-item {
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+.nav-link {
+  border-left: 4px solid transparent;
+
+  &:hover {
+    border-color: $success;
+  }
+
+  &.active {
+    color: $success;
+    border-color: $success;
+  }
+}

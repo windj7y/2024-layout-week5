@@ -1,0 +1,16 @@
+.material-icons {
+  vertical-align: bottom;
+}
+
+.portrait {
+  min-width: 40px;
+  height: 40px;
+}
+
+.arrow {
+  transition: all .5s;
+
+  &[aria-expanded="true"] {
+    transform: rotate(180deg);
+  }
+}

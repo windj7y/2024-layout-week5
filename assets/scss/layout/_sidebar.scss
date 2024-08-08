@@ -1,0 +1,10 @@
+.sidebar {
+  width: 296px;
+  min-height: 100vh;
+}
+
+.logo {
+  height: 40px;
+  background: url(../images/logo-ANSWER.svg) no-repeat;
+  @include picture-replace;
+}

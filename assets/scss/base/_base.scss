@@ -1,0 +1,31 @@
+a {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+code {
+  font-family: "Roboto Mono", monospace;
+  background: $gray-100;
+  padding: 2px 4px;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+textarea {
+  resize: none;
+}
+
+.main {
+  width: calc(100% - 296px);
+  padding: 32px;
+}
